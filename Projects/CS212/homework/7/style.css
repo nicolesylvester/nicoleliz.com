@@ -1,0 +1,91 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* COLORS and FONTS */
+body {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    line-height: 3;
+}
+
+header {
+    background: lavender;
+}
+
+main {
+    background: lemonchiffon;
+}
+
+footer {
+    background: lavender;
+    text-size: 15px;
+    line-height: 1;
+}
+
+.left-sidebar {
+    background: lavenderblush;
+}
+
+.right-sidebar {
+    background: lavenderblush;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    header,
+    footer {
+        width: 100%;
+    }
+
+    main {
+        flex: 2;
+        order: 2;
+        min-height: 80vh;
+    }
+
+    .left-sidebar {
+        order: 1;
+        flex: 1;
+    }
+
+    .right-sidebar {
+        flex: 1;
+        order: 3;
+    }
+
+    footer {
+        order: 4;
+    }
+}
+
+button {
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    button.hotpink {
+        background-color: hotpink ;
+    }
+
+    button.green {
+        background-color: darkseagreen;
+    }
+
+    button.lightblue {
+        background-color: lightskyblue;
+    }

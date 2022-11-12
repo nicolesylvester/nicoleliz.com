@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>Nicole's Holy Grail</header>
+        <main>
+            <div>
+                <p class="name">Why couldn't the flower ride a bike?<br> it lost its petals:(</p>
+                <button onclick="changeColor('hotpink')" class="hotpink">Change to Pink</button>
+                <button onclick="changeColor('lightblue')" class="lightblue">Change to Blue</button>
+                <button onclick="changeColor('green')" class="green">Change to Green</button>
+            </div>
+        </main>
+        <aside class="left-sidebar">
+            <ul>
+                <li> <a href="http://nicoleliz.com/cs212/homework/">Homework</a></li>
+                <li> <a href="https://en.wikipedia.org/wiki/Holy_grail_(web_design)">Holy Grail Design</a></li>
+                <li> <a href="https://squishmallowsquad.fandom.com/wiki/Squishmallows_Wiki">More Squishmallows!</a></li>
+            </ul>
+        </aside>
+        <aside class="right-sidebar">
+            Buy an Avocado Squishmallow!!
+            <a href="https://www.amazon.com/Squishmallows-Avocado-Ultrasoft-Medium-Sized-Official/dp/B09RQ4TF8P/ref=sr_1_13?crid=1C8RM7G62KU2G&keywords=squishmallow&qid=1648182681&sprefix=squish%2Caps%2C137&sr=8-13">
+                <img src="squishmallow.png" width="200" height="208">
+            </a>
+        </aside>
+        <footer>Addendum
+            <p> I did not have many problems writing my JavaScript code. I found the code to create a button and
+            I wrote a change color function that would change the color of a funny spring themed joke. The only difficulty I had was setting the color of the punchline.
+            At first, I had the joke and the punchline in two seperate p tags but only the joke would change colors when the buttons were clicked. I thought that if they were in the same p tag that it would work but I didn't want it to be all one sentence.
+            I googled line break tags for html and found the br tag which solved my problem!
+            </p>
+        </footer>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
