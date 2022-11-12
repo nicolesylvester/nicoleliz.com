@@ -1,0 +1,27 @@
+body {
+  background-color: thistle;
+}
+
+h1 {
+  color: darkseagreen;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 25px;
+  text-align: center;
+  margin: 40px;
+}
+
+h2 {
+  color: darkseagreen;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 18px;
+  margin: 40px;
+}
+
+
+p {
+  color: darkseagreen;
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  margin: 40px
+}
