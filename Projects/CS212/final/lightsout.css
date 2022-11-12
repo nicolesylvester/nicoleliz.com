@@ -1,0 +1,47 @@
+html{
+    background-color: palegoldenrod;
+}
+h1, p {
+    font-family: 'Sniglet', cursive;
+    color: hotpink;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+
+}
+
+p {
+    font-size: 40px;
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    height: 350px;
+    border-style: solid;
+    border-color: pink;
+}
+
+td{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+td.on{
+    background-color: lightpink;
+}
+
+td.off {
+    background-color: hotpink;
+}
+
+
+button{
+    background-color: lightpink;
+    align-content: center;
+    font-size: 25px;
+}
